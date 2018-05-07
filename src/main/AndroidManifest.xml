@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mateo.pirobotcar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LearnMode" />
+        <activity android:name=".helpActivty" />
+        <activity android:name=".LearnFolder.Variables" />
+        <activity android:name=".LearnFolder.Conditions" />
+        <activity android:name=".LearnFolder.Loops" />
+        <activity android:name=".LearnFolder.Functions" />
+        <activity android:name=".LearnFolder.Tasks.FunctionTaskOne" />
+        <activity android:name=".LearnFolder.Tasks.VariableTaskOne" />
+        <activity android:name=".LearnFolder.Tasks.VariableTaskTwo" />
+        <activity android:name=".LearnFolder.Tasks.ConditiontakOne" />
+        <activity android:name=".LearnFolder.Tasks.ConditionTaskTwo" />
+        <activity android:name=".LearnFolder.Tasks.FunctionTaskTwo" />
+        <activity android:name=".LearnFolder.Tasks.LoopTakOne" />
+        <activity android:name=".LearnFolder.Tasks.LoopTaskTwo"></activity>
+    </application>
+
+</manifest>

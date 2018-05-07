@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:background="@drawable/gradient_background"
+    tools:context="com.example.mateo.pirobotcar.LearnFolder.Variables">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_weight="0.5"
+            android:background="#ffffff"
+            android:text="@string/textVariables"
+            android:textAlignment="center"
+            android:textColor="#404040"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/task_two_var"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignTop="@+id/task_one_var"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_toEndOf="@+id/task_one_var"
+        android:layout_toRightOf="@+id/task_one_var"
+        android:background="#ffffff"
+        android:text="@string/_2"
+        android:textColor="#404040"
+        android:textSize="23sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="2" />
+
+    <Button
+        android:id="@+id/task_one_var"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="26dp"
+        android:background="#ffffff"
+        android:text="@string/_1"
+        android:textColor="#404040"
+        android:textSize="23sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1" />
+
+
+</RelativeLayout>

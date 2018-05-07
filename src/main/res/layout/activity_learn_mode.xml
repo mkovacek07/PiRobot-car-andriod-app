@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.example.mateo.pirobotcar.LearnMode">
+
+    <Button
+        android:id="@+id/varijable"
+        android:layout_width="191dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="#ffffff"
+        android:text="@string/variables"
+        android:textColor="#404040"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/petlje"
+        android:layout_width="191dp"
+        android:layout_height="58dp"
+        android:layout_alignLeft="@+id/uvjeti"
+        android:layout_alignStart="@+id/uvjeti"
+        android:layout_below="@+id/uvjeti"
+        android:layout_marginTop="33dp"
+        android:background="#ffffff"
+        android:text="@string/loops"
+        android:textColor="#404040"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/funkcije"
+        android:layout_width="191dp"
+        android:layout_height="58dp"
+        android:layout_alignLeft="@+id/petlje"
+        android:layout_alignStart="@+id/petlje"
+        android:layout_below="@+id/petlje"
+        android:layout_marginTop="33dp"
+        android:background="#ffffff"
+        android:text="@string/functions"
+        android:textColor="#404040"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/uvjeti"
+        android:layout_width="191dp"
+        android:layout_height="58dp"
+        android:layout_alignLeft="@+id/varijable"
+        android:layout_alignStart="@+id/varijable"
+        android:layout_below="@+id/varijable"
+        android:layout_marginTop="33dp"
+        android:background="#ffffff"
+        android:text="@string/conditions"
+        android:textColor="#404040"
+        android:textStyle="bold" />
+</RelativeLayout>

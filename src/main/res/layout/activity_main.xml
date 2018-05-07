@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context="com.example.mateo.pirobotcar.MainActivity">
+
+    <FrameLayout
+        android:paddingTop="10dp"
+        android:id="@+id/customViewContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="#025167"
+        android:textStyle="bold"
+        android:text="Free mode"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="406dp"
+        android:layout_height="183dp"
+        android:padding="7dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnVideoRefresh"
+        android:layout_width="149dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#ffffff"
+        android:paddingTop="15dp"
+        android:text="Refresh"
+        android:layout_gravity="center"
+        android:textColor="#404040"
+        android:textSize="20sp" />
+
+    <WebView
+        android:id="@+id/Jostick"
+        android:layout_width="406dp"
+        android:layout_height="237dp"
+        android:layout_gravity="center"
+        android:paddingTop="15dp" />
+
+
+</LinearLayout>

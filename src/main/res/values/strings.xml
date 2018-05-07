@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PiRobotCar</string>
+    <string name="free_mode">FREE MODE</string>
+    <string name="help">HELP</string>
+    <string name="learn_mode">Learn MODE</string>
+    <string name="variables">VARIABLES</string>
+    <string name="loops">loops</string>
+    <string name="conditions">conditions</string>
+    <string name="functions">functions</string>
+    <string name="textVariables">Variables</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_header">hedaer</string>
+    <string name="connect_button" />
+    <string name="taskText">TextView</string>
+
+</resources>

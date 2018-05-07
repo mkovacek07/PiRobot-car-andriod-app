@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context="com.example.mateo.pirobotcar.MainMenu">
+
+
+    <Button
+        android:id="@+id/freeMode"
+        android:layout_width="191dp"
+        android:layout_height="58dp"
+        android:layout_above="@+id/learnMode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:background="#ffffff"
+        android:text="@string/free_mode"
+        android:textColor="#404040" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="191dp"
+        android:layout_height="58dp"
+        android:layout_alignLeft="@+id/learnMode"
+        android:layout_alignStart="@+id/learnMode"
+        android:layout_centerVertical="true"
+        android:background="#ffffff"
+        android:text="@string/help"
+        android:textColor="#404040" />
+
+    <Button
+        android:id="@+id/learnMode"
+        android:layout_width="191dp"
+        android:layout_height="58dp"
+        android:layout_above="@+id/help"
+        android:layout_alignLeft="@+id/freeMode"
+        android:layout_alignStart="@+id/freeMode"
+        android:layout_marginBottom="38dp"
+        android:background="#ffffff"
+        android:text="@string/learn_mode"
+        android:textAlignment="center"
+        android:textColor="#404040" />
+
+</RelativeLayout>
